@@ -1,0 +1,16 @@
+# 
+# YAML configuration file
+# 
+kafkaInstance:
+  brokers:
+    - localhost:9092
+  topic: my-topic
+  groupId: my-group
+
+influxInstance:
+  host: localhost
+  port: 8086
+  db: go_influx
+  user: admin
+  password: admin
+  token: 1YFVV_ZfdM-EAQ_RndrR4v0kSWdIjZSqrfs4Xw0e6NNREjhwAtG-LlGbZqqMcQOn8zVTMWAOXMWd-X9-4l5gwA==
